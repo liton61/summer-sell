@@ -1,0 +1,378 @@
+/* header part start */
+.header-container {
+    background-color: #F9F6E2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.text-container {
+    width: 40%;
+
+}
+
+.sale-fever {
+    color: #111;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.discount {
+    color: #E527B2;
+}
+
+.offer-title {
+    color: #111;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.promo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-family: Work Sans;
+}
+
+.promo-code {
+    display: flex;
+    align-items: center;
+    color: #111;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.sell200 {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border: none;
+    background-color: #E527B2;
+    border-radius: 8px;
+}
+
+.image-container {
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* header part end */
+
+/* main part start */
+.main-container {
+    background: #F8F8F8;
+}
+
+.kitchenware-title {
+    color: #111;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.sportswear-title {
+    color: #111;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.product-card {
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.product-image {
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin: 20px;
+    background: rgba(17, 17, 17, 0.05);
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+}
+
+.ratings i {
+    color: #FFC107;
+}
+
+.card-title {
+    color: #111;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card-price {
+    color: rgba(17, 17, 17, 0.50);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.coupon-container {
+    border-radius: 8px;
+    background: #FFF;
+    padding: 20px 40px;
+}
+
+.price-calculation {
+    padding: 20px;
+    box-sizing: border-box;
+    height: 100%;
+    margin-top: 50px;
+    border-radius: 8px;
+    background: #FFF;
+    height: 400px;
+}
+
+.have-coupon {
+    color: #111;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.input-Btn-container {
+    display: flex;
+}
+
+.price-calculation p {
+    color: #111;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.container {
+    color: #111;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.coupon-input {
+    color: #ccc;
+    width: 110px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+    border-right: none;
+    border-radius: 8px 0px 0px 8px;
+    border: 1px solid rgba(17, 17, 17, 0.15);
+    background: #FFF;
+}
+
+.apply-btn {
+    background-color: #f7bbe8;
+    color: white;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+    padding: 3px 8px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.coupon-input:focus {
+    outline: none;
+    color: #ccc;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.purchase-btn {
+    display: inline-block;
+    border-radius: 8px;
+    background: #f7bbe8;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: none;
+
+}
+
+#total-price {
+    color: rgba(17, 17, 17, 0.50);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#discount-price {
+    color: rgba(17, 17, 17, 0.50);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#total {
+    color: rgba(17, 17, 17, 0.50);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.modal-body img {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.modal-text-container {
+    text-align: center;
+}
+
+.modal-text-container p {
+    color: rgba(17, 17, 17, 0.50);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.cong-btn {
+    color: #111;
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.home-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home-btn {
+    border: none;
+    padding: 10px 40px;
+    border-radius: 8px;
+    background: #E527B2;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+/* main part end */
+
+
+@media screen and (max-width: 425px) {
+    .header-container {
+        flex-direction: column-reverse;
+        background-color: #FFF;
+        margin-bottom: 300px;
+    }
+
+    .text-container {
+        width: 100%;
+
+    }
+
+    .sale-fever {
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    .offer-title {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .promo-container {
+        flex-direction: column;
+    }
+
+    .image-container {
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .image-container img {
+        width: 100%;
+    }
+
+    .kitchenware-title {
+        text-align: center;
+    }
+
+    .sportswear-title {
+        text-align: center;
+    }
+
+    .product-card {
+        width: 250px;
+        height: 300px;
+        margin: 0 auto;
+    }
+
+    .coupon-container {
+        margin-top: 50px;
+    }
+
+}
+
+/* tablet responsive */
+@media screen and (min-width: 425px) and (max-width: 768px) {
+    .header-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .text-container {
+        width: 50%;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    .image-container {
+        width: 50%;
+    }
+
+    .coupon-container {
+        margin-top: 50px;
+    }
+
+}
